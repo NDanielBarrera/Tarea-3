@@ -1,0 +1,150 @@
+:root {
+    --bg-color: #f4f6f9;
+    --card-bg: #ffffff;
+    --text-main: #2c3e50;
+    --text-muted: #7f8c8d;
+    --primary-color: #3498db;
+    --primary-hover: #2980b9;
+    --success-color: #2ecc71;
+    --success-hover: #27ae60;
+    --info-color: #1abc9c;
+    --purple-color: #9b59b6;
+    --dark-color: #34495e;
+    --border-color: #e2e8f0;
+    --radius: 8px;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 25px;
+    box-shadow: var(--shadow);
+}
+.contenedor{
+    max-width: 750px;
+    margin:0 auto;
+    padding: 0 15px;
+}
+.tarjeta {
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+}
+.tarjeta h2 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--bg-color);
+    padding-bottom: 5px;
+}
+.grupo-formulario {
+    margin-bottom: 12px;
+}
+.grupo-formulario label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.grupo-formulario input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    font-size: 1rem;
+}
+.buscar-contenedor {
+    display: flex;
+    gap: 8px;
+}
+.buscar-contenedor input {
+    flex: 1;
+}
+.boton {
+    padding: 9px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.boton-primario {background-color: var(--primary-color); color: white;}
+.boton-primario:hover {background-color: var(--primary-hover);}
+.boton-secundario {background-color: #95a5a6; color: white;}
+.boton-exitoso {background-color: var(--success-color); color: white;}
+.boton-info {background-color: var(--info-color); color: white;}
+.boton-purpura {background-color: var(--purple-color); color: white;}
+.boton-oscuro {background-color: var(--dark-color); color: white;}
+
+.cuadro-acciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+}
+.lista-tareas {list-style: none;}
+.tarea-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: var(--bg-color);
+    margin-bottom: 8px;
+    border-radius: var(--radius);
+    border-left: 5px solid #bdc3c7;
+}
+.tarea-item.completada {
+    border-left-color: var(--success-color);
+    background-color: #e8f8f0;
+}
+.tarea-item.completada .tarea-texto {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+.tarea-meta {font-size: 0.75rem; color: var(--text-muted);}
+.oculta { display: none !important;}
+
+.alerta-ok {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: var(--radius);
+}
+.cargando { display: flex; align-items: center; gap: 10px;}
+.hilo {
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    border-top-color: var(--primary-color);
+    animation: spin 1s linear infinite;
+}
+@keyframes spin { to {transform: rotate(360deg);} }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+#caja-busqueda {
+    margin-top: 15px;
+}

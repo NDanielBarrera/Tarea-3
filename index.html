@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tarea 3 "JavaScript avanzado"</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Sistema Gestor de Tareas</h1>
+    </header>
+
+    <main class="contenedor">
+        <section id="seccion-estado" class="tarjeta">
+            <h2>Estado del Sistema</h2>
+            <div id="cargando-mensaje" class="cargando">
+                <span class="hilo"></span> Cargando tareas desde el servidor simulado... (Espera 2 segundos)
+            </div>
+            <div id="mensaje-ok" class="alerta oculta alerta-ok">
+                ¡Tareas cargadas correctamente!
+            </div>
+        </section>
+
+        <section id="seccion-formulario" class="tarjeta oculta">
+            <h2>Agregar Nueva Tarea</h2>
+            <form id="todo-form">
+                <div class="grupo-formulario">
+                    <label for="titulo-tarea">Título de la Tarea</label>
+                    <input type="text" id="titulo-tarea" placeholder="Ej: Estudiar métodos de arrays" required>
+                </div>
+                <button type="submit" class="boton boton-primario">Agregar Tarea</button>
+            </form>
+        </section>
+
+        <section id="seccion-acciones" class="tarjeta oculta">
+            <h2>Filtros y Acciones</h2>
+            <div class="cuadro-acciones">
+                <button id="btn-lista-completa" class="boton boton-secundario">Mostrar Todas en Consola</button>
+                <button id="btn-filtro-completado" class="boton boton-exitoso">Filtrar Completadas</button>
+                <button id="btn-mapeo-titulos" class="boton boton-info">Mapear títulos (.map)</button>
+                <button id="btn-todas-promesas" class="boton boton-purpura">Simular Carga Paralela (Promise.all)</button>
+            </div>
+            <div id="caja-busqueda" class="grupo-formulario caja-busqueda">
+                <label for="buscar-titulo">Buscar Tarea Exacta (.find):</label>
+                <div class="buscar-contenedor">
+                    <input type="text" id="buscar-titulo" placeholder="Introduce el título exacto...">
+                    <button type="button" id="btn-busqueda" class="boton boton-oscuro">Buscar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="seccion-lista" class="tarjeta oculta">
+            <h2 id="lista-titulo">Listado de Tareas Activas</h2>
+            <ul id="lista-tareas" class="lista-tareas"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <small>Néstor Daniel Barrera - 2026 - Proyecto de práctica académica</small>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
