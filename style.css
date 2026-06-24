@@ -21,7 +21,7 @@
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 body {
-    background-color: var(--bg-color);
+    background-color: #1e3c72;
     color: var(--text-main);
     line-height: 1.6;
 }
@@ -50,7 +50,7 @@ header {
     font-size: 1.25rem;
     margin-bottom: 15px;
     color: var(--dark-color);
-    border-bottom: 2px solid var(--bg-color);
+    border-bottom: 2px solid var(--border-color);
     padding-bottom: 5px;
 }
 .grupo-formulario {
@@ -85,13 +85,13 @@ header {
     transition: background-color 0.2s;
 }
 
-.boton-primario {background-color: var(--primary-color); color: var(--text-main);}
-.boton-primario:hover {background-color: var(--primary-hover);}
+.boton-primario {background-color: var(--primary-color); color: var(--bg-color);}
+.boton-primario:hover {background-color: var(--success-color);}
 .boton-secundario {background-color: #95a5a6; color: var(--text-main);}
 .boton-exitoso {background-color: var(--success-color); color: var(--text-main);}
 .boton-info {background-color: var(--info-color); color: var(--text-main);}
 .boton-purpura {background-color: var(--purple-color); color: var(--text-main);}
-.boton-oscuro {background-color: var(--dark-color); color: var(--text-main);}
+.boton-oscuro {background-color: var(--dark-color); color: var(--bg-color);}
 
 .cuadro-acciones {
     display: grid;
