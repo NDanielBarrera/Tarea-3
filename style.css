@@ -118,7 +118,8 @@ header {
     color: var(--text-muted);
 }
 .tarea-meta {font-size: 0.75rem; color: var(--text-muted);}
-.oculta { display: none !important;}
+.oculta {display: none !important;}
+
 
 .alerta-ok {
     background-color: #d4edda;
