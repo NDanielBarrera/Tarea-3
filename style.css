@@ -1,9 +1,9 @@
 :root {
     --bg-color: #f4f6f9;
     --card-bg: #ffffff;
-    --text-main: #2c3e50;
+    --text-main: #161f9d;
     --text-muted: #7f8c8d;
-    --primary-color: #3498db;
+    --primary-color: #1114b6;
     --primary-hover: #2980b9;
     --success-color: #2ecc71;
     --success-hover: #27ae60;
@@ -85,13 +85,13 @@ header {
     transition: background-color 0.2s;
 }
 
-.boton-primario {background-color: var(--primary-color); color: white;}
+.boton-primario {background-color: var(--primary-color); color: var(--text-main);}
 .boton-primario:hover {background-color: var(--primary-hover);}
-.boton-secundario {background-color: #95a5a6; color: white;}
-.boton-exitoso {background-color: var(--success-color); color: white;}
-.boton-info {background-color: var(--info-color); color: white;}
-.boton-purpura {background-color: var(--purple-color); color: white;}
-.boton-oscuro {background-color: var(--dark-color); color: white;}
+.boton-secundario {background-color: #95a5a6; color: var(--text-main);}
+.boton-exitoso {background-color: var(--success-color); color: var(--text-main);}
+.boton-info {background-color: var(--info-color); color: var(--text-main);}
+.boton-purpura {background-color: var(--purple-color); color: var(--text-main);}
+.boton-oscuro {background-color: var(--dark-color); color: var(--text-main);}
 
 .cuadro-acciones {
     display: grid;
