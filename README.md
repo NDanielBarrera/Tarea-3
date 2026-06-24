@@ -25,7 +25,7 @@ Necesitas tener instalado un navegador web moderno (Google Chrome, Mozilla Firef
 
 ### 1. Clonar el repositorio
 Abre tu terminal o consola de comandos y ejecuta el siguiente comando: 
-git clone "https://github.com/NDanielBarrera/Tarea-2.git"
+git clone "https://github.com/NDanielBarrera/Tarea-3.git"
 
 ### 2. Iniciar ejecución
 
@@ -46,7 +46,7 @@ Al abrirse el formulario en el navegador, cargar los datos solicitados (nombre y
 
 ## Capturas de funcionamiento
 
-### Mensaje positivo
+### Mensaje
 
 
 
