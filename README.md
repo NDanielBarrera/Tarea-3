@@ -59,9 +59,19 @@ Abrir la opción de Herramientas del Desarrollador (F12) y la consola correspond
 
 ### Carga Asíncrona
 
-![Carga Asíncrona](assets/Carga%Asíncrona.png)
+![Carga Asíncrona](assets/carga_asincrona.png)
 
+![Carga Asíncrona 2](assets/carga_asincrona2.png)
 
+![Agregar Tarea](assets/agregar_tarea.png)
+
+![Filtrar Completadas](assets/filtrar_completadas.png)
+
+![Buscar](assets/buscar.png)
+
+![Mapear Títulos](assets/mapear_titulos.png)
+
+![Simular Carga paralela](assets/simular_carga_paralela.png)
 
 
 ### Mensaje 
