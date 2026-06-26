@@ -57,7 +57,7 @@ Abrir la opción de Herramientas del Desarrollador (F12) y la consola correspond
 
 ## Capturas de funcionamiento
 
-### Carga Asíncrona
+#Carga asíncrona
 
 ![Carga Asíncrona](assets/carga_asincrona.png)
 
@@ -71,7 +71,7 @@ Abrir la opción de Herramientas del Desarrollador (F12) y la consola correspond
 
 ![Mapear Títulos](assets/mapear_titulos.png)
 
-![Simular Carga paralela](assets/simular_carga_paralela.png)
+![Simular Carga paralela](assets/simular_carga_paralela(todas_las_promesas).png)
 
 
 ### Mensaje 
