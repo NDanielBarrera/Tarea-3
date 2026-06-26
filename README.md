@@ -59,7 +59,7 @@ Abrir la opción de Herramientas del Desarrollador (F12) y la consola correspond
 
 ### Carga Asíncrona
 
-![Carga Asíncrona](assets/Carga Asíncrona.png)
+![Carga Asíncrona]("assets/Carga Asíncrona.png")
 
 
 
