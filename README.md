@@ -3,29 +3,29 @@
 Proyecto realizado como práctica de HTML, CSS y JavaScript.
 
 ## Descripción
-Este proyecto se realiza para cumplir con la Tarea del Módulo 1 - Unidad 3 "Formulario interactivo con validación en clases" del curso de Desarrollo en React JS de la Universidad Tecnológica Nacional sede Buenos Aires (UTNBA). Tiene como objetivo consolidar conceptos y prácticas como manipular DOM, creación y modificación de clases y objetos, etc. Asimismo se afianzan prácticas de Programación Orientada a Objetos (POO),asincronía en entornos web mediante **Promesas** y **Async/Await**, y la optimización de procesamiento mediante métodos modernos de orden superior en Arrays.
+Este proyecto se realiza para cumplir con la Tarea del Módulo 1 - Unidad 3 "Formulario interactivo con validación en clases" del Curso: Certificación Full Stack Web Development con React.js de la Universidad Tecnológica Nacional sede Buenos Aires (UTNBA). Tiene como objetivo consolidar conceptos y prácticas como manipular DOM, creación y modificación de clases y objetos, etc. Asimismo se afianzan prácticas de Programación Orientada a Objetos (POO),asincronía en entornos web mediante **Promesas** y **Async/Await**, y la optimización de procesamiento mediante métodos modernos de orden superior en Arrays.
 
 ## Objetivos del proyecto
-° Implementar clases en JavaScript.
-° Aplicar Programación Orientada a Objetos.
-° Simular operaciones asíncronas mediante Promise y setTimeout.
-° Manipular arreglos utilizando los métodos:
-      - forEach()
-      - find()
-      - filter()
-      - map()
-° Utilizar Promise.all() para ejecutar procesos paralelos.
-° Manipular dinámicamente el DOM mediante JavaScript.
+[x] Implementar clases en JavaScript.
+[x] Aplicar Programación Orientada a Objetos.
+[x] Simular operaciones asíncronas mediante Promise y setTimeout.
+[x] Manipular arreglos utilizando los métodos:
+  - forEach()
+  - find()
+  - filter()
+  - map()
+[x] Utilizar Promise.all() para ejecutar procesos paralelos.
+[x] Manipular dinámicamente el DOM mediante JavaScript.
 
 ## Funcionalidades
-° Carga inicial simulada de tareas.
-° Agregado de nuevas tareas.
-° Cambio de estado de una tarea.
-° Búsqueda por título.
-° Filtrado de tareas completadas.
-° Listado completo en consola.
-° Obtención de un arreglo con los títulos mediante map().
-° Simulación de procesos paralelos mediante Promise.all().
+[x] Carga inicial simulada de tareas.
+[x] Agregado de nuevas tareas.
+[x] Cambio de estado de una tarea.
+[x] Búsqueda por título.
+[x] Filtrado de tareas completadas.
+[x] Listado completo en consola.
+[x] Obtención de un arreglo con los títulos mediante map().
+[x] Simulación de procesos paralelos mediante Promise.all().
 
 ## Requisitos Técnicos Resueltos
 1. **POO (Clases):** Implementación de la clase `Tarea` y la clase controladora de colecciones `GestorTareas`.
