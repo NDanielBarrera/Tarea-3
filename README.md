@@ -7,25 +7,25 @@ Este proyecto se realiza para cumplir con la Tarea del Módulo 1 - Unidad 3 "For
 
 ## Objetivos del proyecto
 - [x] Implementar clases en JavaScript.
-[x] Aplicar Programación Orientada a Objetos.
-[x] Simular operaciones asíncronas mediante Promise y setTimeout.
-[x] Manipular arreglos utilizando los métodos:
-  - forEach()
-  - find()
-  - filter()
-  - map()
-[x] Utilizar Promise.all() para ejecutar procesos paralelos.
-[x] Manipular dinámicamente el DOM mediante JavaScript.
+- [x] Aplicar Programación Orientada a Objetos.
+- [x] Simular operaciones asíncronas mediante Promise y setTimeout.
+- [x] Manipular arreglos utilizando los métodos:
+    - forEach()
+    - find()
+    - filter()
+    - map()
+- [x] Utilizar Promise.all() para ejecutar procesos paralelos.
+- [x] Manipular dinámicamente el DOM mediante JavaScript.
 
 ## Funcionalidades
-[x] Carga inicial simulada de tareas.
-[x] Agregado de nuevas tareas.
-[x] Cambio de estado de una tarea.
-[x] Búsqueda por título.
-[x] Filtrado de tareas completadas.
-[x] Listado completo en consola.
-[x] Obtención de un arreglo con los títulos mediante map().
-[x] Simulación de procesos paralelos mediante Promise.all().
+- [x] Carga inicial simulada de tareas.
+- [x] Agregado de nuevas tareas.
+- [x] Cambio de estado de una tarea.
+- [x] Búsqueda por título.
+- [x] Filtrado de tareas completadas.
+- [x] Listado completo en consola.
+- [x] Obtención de un arreglo con los títulos mediante map().
+- [x] Simulación de procesos paralelos mediante Promise.all().
 
 ## Requisitos Técnicos Resueltos
 1. **POO (Clases):** Implementación de la clase `Tarea` y la clase controladora de colecciones `GestorTareas`.
