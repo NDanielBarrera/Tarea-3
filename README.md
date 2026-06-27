@@ -6,7 +6,7 @@ Proyecto realizado como práctica de HTML, CSS y JavaScript.
 Este proyecto se realiza para cumplir con la Tarea del Módulo 1 - Unidad 3 "Formulario interactivo con validación en clases" del Curso: Certificación Full Stack Web Development con React.js de la Universidad Tecnológica Nacional sede Buenos Aires (UTNBA). Tiene como objetivo consolidar conceptos y prácticas como manipular DOM, creación y modificación de clases y objetos, etc. Asimismo se afianzan prácticas de Programación Orientada a Objetos (POO),asincronía en entornos web mediante **Promesas** y **Async/Await**, y la optimización de procesamiento mediante métodos modernos de orden superior en Arrays.
 
 ## Objetivos del proyecto
-[x] Implementar clases en JavaScript.
+- [x] Implementar clases en JavaScript.
 [x] Aplicar Programación Orientada a Objetos.
 [x] Simular operaciones asíncronas mediante Promise y setTimeout.
 [x] Manipular arreglos utilizando los métodos:
