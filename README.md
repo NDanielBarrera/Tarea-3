@@ -92,7 +92,7 @@ Nombre: Néstor Daniel Barrera
 
 Curso: Certificación Full Stack Web Development con React.js
 
-Unidad N° 3: JavaScript avanzado.
+Unidad N° 3: JavaScript avanzado
 
 Institución: Centro de e-Learning UTN BA (Universidad Tecnológica Nacional Sede Buenos Aires)
 
@@ -108,4 +108,4 @@ Año: 2026
 - Documentación de JavaScript:
   - https://developer.mozilla.org/es/docs/Web/JavaScript
 
-- Material de estudio UTN BA Centro de e-Learning.
+- Material de estudio UTN BA Centro de e-Learning
